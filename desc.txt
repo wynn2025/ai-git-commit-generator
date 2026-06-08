@@ -1,0 +1,36 @@
+还在为写git commit message发愁？这个工具帮你一键生成规范提交信息！
+
+纯Python实现，读取git diff自动分析变更，生成符合Conventional Commits规范的提交信息。
+
+ 功能亮点：
+ 自动识别11种变更类型（feat/fix/refactor/docs等）
+ 符合Conventional Commits国际规范
+ 中英文双语输出
+ 零依赖，pip install都不需要
+ 支持单文件和整个项目分析
+ 一行命令搞定：python main.py
+
+ 提效效果：
+- 写commit message从5分钟变5秒
+- 团队commit规范统一，review效率提升
+- 自动生成CHANGELOG的基础
+
+ 你会收到：
+- 完整Python源代码
+- 详细使用说明（README.md）
+- MIT开源协议，可商用
+
+ 使用方式：
+1. 解压文件
+2. cd到git项目目录
+3. 运行 python main.py
+4. 复制生成的commit message即可
+
+ 适合人群：
+- 程序员（每天多次提交代码）
+- 技术团队负责人（统一提交规范）
+- 开源项目维护者（规范化贡献流程）
+
+ 注意：Python 3.7+环境，零依赖
+
+ 配套推荐：我还有AI代码审查、AI成本计算器等10+款工具，打包更优惠！
